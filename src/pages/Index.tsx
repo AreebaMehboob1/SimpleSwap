@@ -20,7 +20,7 @@ const Index = () => {
               style={{
                 width: "100%",
                 height: "auto",
-                minHeight: "200px", // Ensures the iframe doesn't collapse if content is small
+                minHeight: "200px", // Ensures iframe doesn't collapse if content is small
                 border: "none",
                 borderRadius: "0.5rem",
               }}
