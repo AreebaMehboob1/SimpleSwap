@@ -7,7 +7,7 @@ const LPFundsBreakdown: React.FC = () => {
       <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row items-start gap-12 mb-4">
           <div className="max-w-md">
-            <h2 className="text-2xl font-bold mb-8">LP funds breakdown</h2>
+            <h2 className="text-3xl font-bold mb-8">LP funds breakdown</h2>
             <p className="text-gray-700 mb-4">
               Fee-Offset Bridge – Cross-Chain Made Affordable.
             </p>
@@ -71,7 +71,7 @@ const LPFundsBreakdown: React.FC = () => {
             </div>
           </div>
         </div>
-        <div className="bg-blue-900 rounded-3xl overflow-hidden">
+        <div className="bg-blue-900 rounded-3xl overflow-hidden mt-5">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 p-8 text-white">
             <div className="flex flex-col items-center text-center">
               <h3 className="font-semibold mb-2 uppercase">Community</h3>
