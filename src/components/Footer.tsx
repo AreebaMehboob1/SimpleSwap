@@ -78,8 +78,8 @@ const Footer: React.FC = () => {
 
           {/* Right-aligned Button */}
           <div className="ml-auto">
-            <Button className="bg-white font-bold text-black hover:bg-gray-100 border border-gray-300 rounded-full px-4 py-2 h-auto text-sm">
-              BUY Super Simple Swaps
+            <Button className="bg-gradient-to-r from-red-500 via-orange-500 via-yellow-500 via-green-500 via-blue-500 via-indigo-500 to-violet-500 text-white hover:bg-gradient-to-r hover:from-red-600 hover:via-orange-600 hover:via-yellow-600 hover:via-green-600 hover:via-blue-600 hover:via-indigo-600 hover:to-violet-600 rounded-full px-6 py-2 text-sm font-semibold shadow-md hover:shadow-lg transition-all duration-300">
+              Buy Super Simple Swaps
             </Button>
           </div>
         </div>
