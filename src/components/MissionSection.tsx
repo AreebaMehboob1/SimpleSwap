@@ -3,9 +3,9 @@ import { Card, CardContent } from "@/components/ui/card";
 
 const MissionSection: React.FC = () => {
   return (
-    <section className="bg-lime-200 py-12 px-6 md:px-12 rounded-3xl mx-4 md:mx-12">
+    <section className="bg-[#1A2E4D] py-12 px-6 md:px-12 rounded-3xl mx-4 md:mx-12">
       <div className="container mx-auto">
-        <h2 className="text-3xl md:text-4xl font-bold text-black text-center mb-10">
+        <h2 className="text-3xl md:text-4xl font-bold text-white text-center mb-10">
           Mission Simple
         </h2>
 
@@ -17,7 +17,7 @@ const MissionSection: React.FC = () => {
                 alt="Logo"
                 className="w-20 h-20 md:w-24 md:h-24 object-contain flex-shrink-0"
               />
-              <p className="text-base md:text-lg text-gray-800 leading-relaxed">
+              <p className="text-base md:text-lg text-gray-200 leading-relaxed">
                 No team token dumps. No hidden mechanics. SSS is entirely funded
                 through liquidity provider (LP) rewards—staying true to first
                 principles. The team never sells tokens, ensuring full
