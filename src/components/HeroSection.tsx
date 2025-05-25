@@ -11,7 +11,7 @@ const HeroSection: React.FC = () => {
         muted
         className="absolute top-0 left-0 w-full h-full object-cover z-0"
       >
-        <source src="/.mp4" type="video/mp4" />
+        <source src="/HeroSection (2).mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
       <div className="container flex flex-col items-start relative z-10 h-full pt-20 pb-10 bg-green">
@@ -24,16 +24,19 @@ const HeroSection: React.FC = () => {
             community-rewarded crypto swaps for the modern trader.
           </p>
         </div>
-        <div className="flex flex-wrap gap-[6.0rem] mb-1">
-          <Button className="bg-black text-white hover:bg-gray-800 rounded-3xl px-6 py-6 h-auto text-base font-medium">
-            Swap now
+        <div className="flex flex-wrap gap-4 mb-1">
+          <Button
+            variant="outline"
+            className="bg-gradient-to-r from-purple-600 to-blue-500 text-white font-semibold rounded-full px-8 py-4 text-lg shadow-lg transform transition-all duration-300 hover:scale-105 hover:shadow-xl"
+          >
+            Swap Now
           </Button>
           <Button
             variant="outline"
-            className="bg-white border-2 border-gray-200 text-black rounded-3xl px-6 py-6 h-auto text-base font-medium hover:bg-gray-100 flex items-center justify-center gap-2"
+            className="bg-gradient-to-r from-purple-600 to-blue-500 text-white font-semibold rounded-full px-8 py-4 text-lg shadow-lg transform transition-all duration-300 hover:scale-105 hover:shadow-xl"
           >
-            <span>find us on</span>
-            <X size={18} />
+            <span>Find Us On</span>
+            <X size={20} />
           </Button>
         </div>
       </div>
