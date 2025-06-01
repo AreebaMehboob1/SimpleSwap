@@ -12,7 +12,7 @@ const Index = () => {
       <Header />
       <main className="flex-1 flex flex-col">
         <HeroSection />
-        <section className="py-10 px-6 md:px-12 bg-white">
+        <section id="exchange-section" className="py-10 px-6 md:px-12 bg-white">
           <div className="container mx-auto bg-gray-100 border border-gray-300 shadow-xl rounded-xl p-6 inline-block">
             <iframe
               id="iframe-widget"
@@ -20,7 +20,7 @@ const Index = () => {
               style={{
                 width: "100%",
                 height: "auto",
-                minHeight: "200px", // Ensures iframe doesn't collapse if content is small
+                minHeight: "200px",
                 border: "none",
                 borderRadius: "0.5rem",
               }}
