@@ -15,7 +15,7 @@ const MissionSection: React.FC = () => {
               <img
                 src="/logo.png"
                 alt="Logo"
-                className="w-25 h-25 md:w-28 md:h-28 mt-10 object-contain flex-shrink-0"
+                className="w-20 h-20 md:w-24 md:h-24 object-contain flex-shrink-0"
               />
               <p className="text-base md:text-lg text-gray-200 leading-relaxed">
                 No team token dumps. No hidden mechanics. SSS is entirely funded
