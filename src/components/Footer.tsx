@@ -3,25 +3,37 @@ import { X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const Footer: React.FC = () => {
+  const handleButtonClick = () => {
+    const exchangeSection = document.getElementById("exchange-section");
+    if (exchangeSection) {
+      exchangeSection.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
-    <footer className="py-30 px-6 md:px-12 bg-white">
+    <footer id="footer-section" className="py-30 px-6 md:px-12 bg-white">
       <div className="container mx-auto">
         {/* Find Us On */}
         <div className="text-center mb-4">
           <h2 className="text-3xl font-bold text-gray-900 mb-6">Find us on</h2>
           <div className="flex justify-center items-center gap-10">
-            <a href="#" className="text-black">
-              <img src="/X.png" alt="X" className="w-auto h-10" />
+            <a href="#" className="text-black flex items-center gap-2">
+              <img src="/x-social-media.svg" alt="X" className="w-auto h-10" />
+              <span className="font-bold fs-6">Twitter</span>
             </a>
-            <a href="#" className="text-black">
+            <a href="#" className="text-black flex items-center gap-2">
               <img
-                src="/DexScreener.png"
+                src="/dexscreener.svg"
                 alt="DEXScreener"
                 className="h-10 w-auto"
               />
+              <h1>
+                <span className="font-bold">DEX</span>SCREENER
+              </h1>
             </a>
-            <a href="#" className="text-black">
-              <img src="/telegram.png" alt="Telegram" className="w-auto h-8" />
+            <a href="#" className="text-black flex items-center gap-2">
+              <img src="/telegram.svg" alt="Telegram" className="w-auto h-10" />
+              <span className="font-bold fs-6">Telegram</span>
             </a>
             <a href="#" className="text-black">
               <img
@@ -64,23 +76,20 @@ const Footer: React.FC = () => {
           <span className="font-bold text-lg text-black">
             Super Simple Swaps
           </span>
-          <nav className="absolute left-1/2 font-bold transform -translate-x-1/2 flex space-x-8">
-            <a href="#" className="text-black text-sm">
-              Home
-            </a>
-            <a href="#" className="text-black text-sm">
-              Contact
-            </a>
-            <a href="#" className="text-black text-sm">
-              $$$S
-            </a>
-          </nav>
 
           {/* Right-aligned Button */}
-          <div className="ml-auto">
-            <Button className="bg-gradient-to-r from-red-500 via-orange-500 via-yellow-500 via-green-500 via-blue-500 via-indigo-500 to-violet-500 text-white hover:bg-gradient-to-r hover:from-red-600 hover:via-orange-600 hover:via-yellow-600 hover:via-green-600 hover:via-blue-600 hover:via-indigo-600 hover:to-violet-600 rounded-full px-6 py-2 text-sm font-semibold shadow-md hover:shadow-lg transition-all duration-300">
+          <div className="ml-auto position-relative">
+            <Button
+              onClick={handleButtonClick}
+              className="bg-gradient-to-r me-3 from-red-500 via-orange-500 via-yellow-500 via-green-500 via-blue-500 via-indigo-500 to-violet-500 text-white hover:bg-gradient-to-r hover:from-red-600 hover:via-orange-600 hover:via-yellow-600 hover:via-green-600 hover:via-blue-600 hover:via-indigo-600 hover:to-violet-600 rounded-full px-6 py-2 text-sm font-semibold shadow-md hover:shadow-lg transition-all duration-300"
+            >
               Buy Super Simple Swaps
+              {/* <a href="#" className="position-absolute bottom-0 end-0 p-5"> */}
+              {/* </a> */}
             </Button>
+            <a href="#">
+              <i className="bi bi-arrow-up-circle h3"></i>
+            </a>
           </div>
         </div>
       </div>
