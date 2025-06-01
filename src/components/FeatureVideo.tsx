@@ -3,11 +3,11 @@ import { Button } from "@/components/ui/button";
 import { Play } from "lucide-react";
 const LPFundsBreakdown: React.FC = () => {
   return (
-    <section className="py-16 px-6 md:px-12 bg-white">
+    <section id="featurevideo-section" className="py-16 px-6 md:px-12 bg-white">
       <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row items-start gap-12 mb-4">
           <div className="max-w-md">
-            <h2 className="text-3xl font-bold mb-8">LP funds breakdown</h2>
+            <h2 className="text-3xl font-bold mb-8">LP Funds Breakdown</h2>
             <p className="text-gray-700 mb-4">
               Fee-Offset Bridge – Cross-Chain Made Affordable.
             </p>
@@ -27,7 +27,9 @@ const LPFundsBreakdown: React.FC = () => {
                 <div className="flex items-center justify-center w-8 h-8 bg-black text-white rounded-full text-sm">
                   1
                 </div>
-                <h3 className="text-lg font-semibold">10% Operations</h3>
+                <h3 className="text-lg font-semibold text-white">
+                  10% Operations
+                </h3>
               </div>
               <p className="text-sm text-gray-300 mb-3">
                 For upkeep and administrative tasks
@@ -40,7 +42,9 @@ const LPFundsBreakdown: React.FC = () => {
                 <div className="flex items-center justify-center w-8 h-8 bg-black text-white rounded-full text-sm">
                   2
                 </div>
-                <h3 className="text-lg font-semibold">10% Marketing</h3>
+                <h3 className="text-lg font-semibold text-white">
+                  10% Marketing
+                </h3>
               </div>
               <p className="text-sm text-gray-300 mb-3">
                 Growth initiatives & community building
@@ -53,7 +57,9 @@ const LPFundsBreakdown: React.FC = () => {
                 <div className="flex items-center justify-center w-8 h-8 bg-black text-white rounded-full text-sm">
                   3
                 </div>
-                <h3 className="text-lg font-semibold">40% Long term lock</h3>
+                <h3 className="text-lg font-semibold text-white">
+                  40% Long term lock
+                </h3>
               </div>
               <p className="text-sm text-gray-300 mb-3">
                 Locked for token value increase
@@ -66,7 +72,9 @@ const LPFundsBreakdown: React.FC = () => {
                 <div className="flex items-center justify-center w-8 h-8 bg-black text-white rounded-full text-sm">
                   4
                 </div>
-                <h3 className="text-lg font-semibold">40% Project funding</h3>
+                <h3 className="text-lg font-semibold text-white">
+                  40% Project funding
+                </h3>
               </div>
               <p className="text-sm text-gray-300 mb-3">
                 For the perfect liquidity pool balance
